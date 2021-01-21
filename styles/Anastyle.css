@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-size: 16px;
+ }
+ body{
+     display: grid;
+     grid-template-areas: 
+     "header"
+     "content"
+     "footer";
+     height: 1500px;
+     grid-template-rows: 100px 1fr 300px;
+     
+ }
+ #content{
+     display: grid;
+     grid-template-rows: 3fr 8fr ;
+     background: lightgrey;
+
+ }
+
+ #header{
+     background: url(../images/Logo.png.png) no-repeat left center,white ;
+     background-size: 11%;
+
+     position: sticky;
+     top: 0;
+     z-index: 99;
+
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+ 
+ }
+ #header > a{
+     color: gray;
+     margin: 0.5rem;
+    
+     
+ }
+ #header > ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     margin-left: 5vw;
+     margin-right: 10vw;
+     
+
+ }
+
+ #header > ul li{
+     margin: 1rem;
+ }
+ #header > ul li a{
+     background: turquoise;
+     color: white;
+     font-weight: bolder;
+     text-align: center;
+     padding: 0.25rem;
+     text-decoration: none;
+     font-family: 'Varela Round', sans-serif;
+     
+ }
+ #header > ul a.anasayfa{
+     background: turquoise;
+ }
+ #header ul a:hover{
+     color: black;
+ }
+ .intro{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     position: relative;
+}
+.intro{
+    background: white url(.images/Dekorev.jpg) center center no-repeat;
+}
+.introKapsayici{
+    max-width: 80%;
+    margin: 5%;
+    padding: 1rem;
+    background-color: rgb(205,183 ,181,0.8);
+}
+.introKapsayici{
+    flex: 0 0 30%;
+    border: none;
+    margin-left: 10vw;
+    margin-top: 1rem;
+    z-index: 98;
+}
+.intro:before{
+    content: '';
+    background: url(../images/Dekorev.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.introKapsayici h5{
+    display: block;
+    background: yellow;
+    color: purple;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.introKapsayici h3{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: purple;
+    font-family: 'Merienda', cursive;
+}
+.introKapsayici p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.introKapsayici a.btn{
+    display: block;
+    width: 10rem;
+    background: purple;
+    opacity: 0.8;
+    text-align: center;
+    color: yellow;
+    text-decoration: none;
+    padding: 0.25rem;
+}
+.ContentBox img{
+    margin: 1rem;
+    
+}
+.ContentBox p{
+    font-size: 1.2rem;
+    margin: 0.24rem;
+}

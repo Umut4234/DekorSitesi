@@ -1,0 +1,43 @@
+.textBox h5{
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.textBox p{
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.misyonBaslik{
+    background: rgb(117, 85, 204);
+    color: white;
+    display: block;
+    width: 7rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem; 
+}
+.vizyonmBaslik{
+    background: rgb(117, 85, 204);
+    color: white;
+    display: block;
+    width: 7rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;  
+}
+.kurumsalBaslik{
+    background: rgb(117, 85, 204);
+    color: white;
+    display: block;
+    width: 7rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;  
+}
+.anaBaslik{
+    text-align: center;
+    background: rgba(255, 0, 0, 0.5);
+    color: black;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.asilBaslik img{
+    margin-left: 15rem;
+}
